@@ -10,7 +10,7 @@ class Program {
     new int[] {89, 23,9},
     new int[] {0, 45, 99}
 };
-var result=SpiralOrder(matrix);
+List<int> result=SpiralOrder(matrix);
 Console.WriteLine(string.Join(",",result));
   }
 	public static IList<int> SpiralOrder(int[][] matrix) {
